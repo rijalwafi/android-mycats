@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCatActivity">
+
+    <TextView
+        android:id="@+id/tv_deskripsi"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+
+        android:layout_marginBottom="20dp"
+        android:text="Add Your Cats for Manaje Your Activty "
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:id="@+id/Linear_1"
+        android:layout_below="@+id/tv_deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:id="@+id/ti4"
+            app:errorEnabled="true"
+
+            android:textColorHint="#07F195"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_cat_name"
+
+                android:layout_width="match_parent"
+                android:layout_toRightOf="@+id/imageLogin"
+                android:layout_gravity="center"
+                android:inputType="text"
+                android:hint="Your Cat Name"
+                android:textColorHint="#E220FA"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            app:errorEnabled="true"
+            android:textColorHint="#07F195"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_cat_gender"
+                android:layout_width="match_parent"
+                android:layout_toRightOf="@+id/imageLogin"
+                android:layout_gravity="center"
+                android:inputType="text"
+                android:hint="Gender Your Cats"
+                android:textColorHint="#E220FA"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            app:errorEnabled="true"
+            android:textColorHint="#07F195"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_cat_type"
+                android:layout_width="match_parent"
+                android:layout_toRightOf="@+id/imageLogin"
+                android:layout_gravity="center"
+                android:inputType="text"
+                android:hint="Type Of your Cats"
+                android:textColorHint="#E220FA"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            app:errorEnabled="true"
+            android:textColorHint="#07F195"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_cat_color"
+                android:layout_width="match_parent"
+                android:layout_toRightOf="@+id/imageLogin"
+                android:layout_gravity="center"
+                android:inputType="text"
+                android:hint="Color Of Your Cat"
+                android:textColorHint="#E220FA"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            app:errorEnabled="true"
+            android:textColorHint="#07F195"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_cat_food"
+                android:layout_width="match_parent"
+                android:layout_toRightOf="@+id/imageLogin"
+                android:layout_gravity="center"
+                android:inputType="text"
+                android:hint="Food Of Your Cats"
+                android:textColorHint="#E220FA"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_add_cat"
+
+        android:text="Add Cat"
+        android:background="@drawable/button_effect"
+        android:lineHeight="10dp"
+        android:outlineSpotShadowColor="@color/colorPurple"
+        android:textAllCaps="true"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_below="@+id/Linear_1"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

@@ -1,0 +1,18 @@
+Aplikasi ini untuk memanajemen pecinta kucing yang 
+memiliki banyak kucing, dari melihat jumlah kucing
+,makanan jenis apa yang mereka makan dan sebagainya.
+aplikasi ini punya 4 akun,bisa register namun belum punya 
+data kucingnya
+username  |password
+anton	  :123
+rijalwafi :123
+dian	  :123
+dewa19    :123
+masing-masing memiliki kucing yang berbeda.
+Maaf aplikasi ini masih banyak kekuranganya, seperti belum 
+bisa insert kucing baru,hapus data kucing dan edit data kucing.
+
+-Silahkan kirim via bluetooth app-release.apk untuk 
+ menginstall di hp android.
+-Untuk database sudah saya taruh di hosting, jadi tinggal 
+ install dan pakai saja.
